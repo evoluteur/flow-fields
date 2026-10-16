@@ -1,0 +1,20 @@
+{
+  "name": "flow-fields",
+  "version": "1.0.0",
+  "description": "Thousands of particles follow Perlin noise, curl noise, whirlpools or waves and draw silky currents; tune the zoom, twist, colors and ink, and download the art as PNG.",
+  "repository": "github:evoluteur/flow-fields",
+  "homepage": "https://evoluteur.github.io/flow-fields/",
+  "copyright": "(c) 2026 Olivier Giulieri",
+  "author": "Olivier Giulieri (https://evoluteur.github.io/)",
+  "license": "MIT",
+  "keywords": [
+    "flow-field",
+    "perlin-noise",
+    "curl-noise",
+    "particles",
+    "generative-art",
+    "creative-coding",
+    "vector-field",
+    "canvas"
+  ]
+}

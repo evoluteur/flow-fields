@@ -6,15 +6,19 @@
 .content {
   max-width: 1200px;
 }
-.art-wrap {
+.art-col {
   flex: 0 1 900px;
+}
+.art-wrap {
   aspect-ratio: 3 / 2;
   background: #07070d;
 }
 .art-wrap canvas {
   cursor: crosshair;
 }
-.buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.art-col .hint {
+  margin-top: 12px;
+}
+.art-col .buttons {
+  margin-top: 8px;
 }

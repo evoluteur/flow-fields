@@ -98,8 +98,17 @@
     <h2>Particles tracing invisible currents</h2>
     <div class="content">
       <div class="app-layout">
-        <div class="art-wrap" id="ff-wrap">
-          <canvas id="ff-canvas" aria-label="Flow field drawing"></canvas>
+        <div class="art-col">
+          <div class="art-wrap" id="ff-wrap">
+            <canvas id="ff-canvas" aria-label="Flow field drawing"></canvas>
+          </div>
+          <p class="hint">Drag on the canvas to pour particles.</p>
+          <div class="buttons">
+            <button type="button" id="ff-pause">Pause</button>
+            <button type="button" id="ff-new" class="secondary">New field</button>
+            <button type="button" id="ff-clear" class="secondary">Clear</button>
+            <button type="button" id="ff-png" class="secondary">Download PNG</button>
+          </div>
         </div>
         <div class="controls">
           <label>Field <select id="ff-field"></select></label>
@@ -131,13 +140,6 @@
             ><span>Line width <b id="ff-width-val"></b></span>
             <input id="ff-width" type="range" min="0.3" max="3" step="0.1" value="0.8" />
           </label>
-          <p class="hint">Drag on the canvas to pour particles.</p>
-          <div class="buttons">
-            <button type="button" id="ff-pause">Pause</button>
-            <button type="button" id="ff-new" class="secondary">New field</button>
-            <button type="button" id="ff-clear" class="secondary">Clear</button>
-            <button type="button" id="ff-png" class="secondary">Download PNG</button>
-          </div>
           <p class="hint"><span id="ff-info">Step 0.</span> The address of the page keeps the field, to share it.</p>
         </div>
       </div>

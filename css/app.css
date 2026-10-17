@@ -78,9 +78,13 @@ html[data-theme="evol-blue"] #omg-github svg {
   gap: 28px;
   align-items: flex-start;
 }
+.art-col {
+  flex: 0 1 600px;
+  min-width: 0;
+}
 .art-wrap {
   position: relative;
-  flex: 0 1 600px;
+  width: 100%;
   border-radius: 4px;
   box-shadow: 0 8px 26px rgba(0, 0, 0, 0.35);
   overflow: hidden;
@@ -136,19 +140,19 @@ html[data-theme="evol-blue"] #omg-github svg {
   flex-wrap: wrap;
   gap: 6px;
 }
-.controls button {
+.app-layout button {
   margin: 0;
 }
-.controls button.secondary {
+.app-layout button.secondary {
   background: transparent;
   color: inherit;
   border: 2px solid var(--card-border);
 }
-.controls button.secondary:hover,
-.controls button.secondary:focus-visible {
+.app-layout button.secondary:hover,
+.app-layout button.secondary:focus-visible {
   background: var(--card-bg);
 }
-.controls button.on {
+.app-layout button.on {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
@@ -172,7 +176,7 @@ html[data-theme="evol-blue"] #omg-github svg {
   .app-layout {
     flex-direction: column;
   }
-  .art-wrap {
+  .art-col {
     flex: none;
     width: 100%;
   }

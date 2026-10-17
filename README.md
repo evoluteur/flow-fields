@@ -26,9 +26,11 @@ No build and no dependencies: open `index.html` in a browser.
 
 ## Related projects
 
-- [Voronoi Maker](https://evoluteur.github.io/voronoi-maker/)
 - [Strange Attractors](https://evoluteur.github.io/strange-attractors/)
 - [Reaction-Diffusion](https://evoluteur.github.io/reaction-diffusion/)
+- [Snowflake Grower](https://evoluteur.github.io/snowflake-grower/)
+- [Harmonograph Maker](https://evoluteur.github.io/harmonograph-maker/)
+- [Cymatics](https://evoluteur.github.io/cymatics/)
 
 ## License
 
